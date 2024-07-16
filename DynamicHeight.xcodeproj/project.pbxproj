@@ -16,6 +16,8 @@
 		ACDFDE602C424B7100B55C1A /* DynamicHeightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDFDE5F2C424B7100B55C1A /* DynamicHeightTests.swift */; };
 		ACDFDE6A2C424B7100B55C1A /* DynamicHeightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDFDE692C424B7100B55C1A /* DynamicHeightUITests.swift */; };
 		ACDFDE6C2C424B7100B55C1A /* DynamicHeightUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDFDE6B2C424B7100B55C1A /* DynamicHeightUITestsLaunchTests.swift */; };
+		ACDFDE7A2C424E6500B55C1A /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACDFDE792C424E6500B55C1A /* TableViewCell.xib */; };
+		ACDFDE7B2C424E6500B55C1A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDFDE782C424E6500B55C1A /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		ACDFDE652C424B7100B55C1A /* DynamicHeightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicHeightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACDFDE692C424B7100B55C1A /* DynamicHeightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicHeightUITests.swift; sourceTree = "<group>"; };
 		ACDFDE6B2C424B7100B55C1A /* DynamicHeightUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicHeightUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ACDFDE782C424E6500B55C1A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		ACDFDE792C424E6500B55C1A /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				ACDFDE4A2C424B6F00B55C1A /* SceneDelegate.swift */,
 				ACDFDE4C2C424B6F00B55C1A /* ViewController.swift */,
 				ACDFDE4E2C424B6F00B55C1A /* Main.storyboard */,
+				ACDFDE782C424E6500B55C1A /* TableViewCell.swift */,
+				ACDFDE792C424E6500B55C1A /* TableViewCell.xib */,
 				ACDFDE512C424B7100B55C1A /* Assets.xcassets */,
 				ACDFDE532C424B7100B55C1A /* LaunchScreen.storyboard */,
 				ACDFDE562C424B7100B55C1A /* Info.plist */,
@@ -232,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACDFDE522C424B7100B55C1A /* Assets.xcassets in Resources */,
+				ACDFDE7A2C424E6500B55C1A /* TableViewCell.xib in Resources */,
 				ACDFDE552C424B7100B55C1A /* Base in Resources */,
 				ACDFDE502C424B6F00B55C1A /* Base in Resources */,
 			);
@@ -259,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACDFDE4D2C424B6F00B55C1A /* ViewController.swift in Sources */,
+				ACDFDE7B2C424E6500B55C1A /* TableViewCell.swift in Sources */,
 				ACDFDE492C424B6F00B55C1A /* AppDelegate.swift in Sources */,
 				ACDFDE4B2C424B6F00B55C1A /* SceneDelegate.swift in Sources */,
 			);
@@ -442,6 +450,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LU893QGJWJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DynamicHeight/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -469,6 +478,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LU893QGJWJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DynamicHeight/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
